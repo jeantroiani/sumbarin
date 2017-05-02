@@ -10187,11 +10187,12 @@ module.exports = React;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.Section__Content = exports.Section__Title = exports.Section = undefined;
+exports.Container = exports.Section__Content = exports.Section__Title = exports.Section = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n    font-size: 16px;\n    text-align: center;\n    color: #2A363C;\n    position: relative;\n    background-color: white;\n    padding: 40px 20px;\n'], ['\n    font-size: 16px;\n    text-align: center;\n    color: #2A363C;\n    position: relative;\n    background-color: white;\n    padding: 40px 20px;\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n    font-size: 24px;\n    margin-bottom: 12px;\n    color: #2A363C;\n    text-transform: uppercase;\n    text-align: left;\n'], ['\n    font-size: 24px;\n    margin-bottom: 12px;\n    color: #2A363C;\n    text-transform: uppercase;\n    text-align: left;\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n    font-size: 16px;\n    margin-bottom: 12px;\n    color: #2A363C;\n    text-align: left;\n'], ['\n    font-size: 16px;\n    margin-bottom: 12px;\n    color: #2A363C;\n    text-align: left;\n']);
+    _templateObject2 = _taggedTemplateLiteral(['\n    font-size: 24px;\n    margin-bottom: 16px;\n    color: #2A363C;\n    text-align: left;\n    @media (min-width: 768px) {\n        font-size: 32px;\n        margin-bottom: 30px;\n    }\n'], ['\n    font-size: 24px;\n    margin-bottom: 16px;\n    color: #2A363C;\n    text-align: left;\n    @media (min-width: 768px) {\n        font-size: 32px;\n        margin-bottom: 30px;\n    }\n']),
+    _templateObject3 = _taggedTemplateLiteral(['\n    font-size: 16px;\n    margin-bottom: 16px;\n    color: #2A363C;\n    text-align: left;\n    @media (min-width: 768px) {\n        font-size: 20px;\n        margin-bottom: 30px;\n    }\n        \n'], ['\n    font-size: 16px;\n    margin-bottom: 16px;\n    color: #2A363C;\n    text-align: left;\n    @media (min-width: 768px) {\n        font-size: 20px;\n        margin-bottom: 30px;\n    }\n        \n']),
+    _templateObject4 = _taggedTemplateLiteral(['\n    max-width: 960px;\n    margin: 0 auto;\n'], ['\n    max-width: 960px;\n    margin: 0 auto;\n']);
 
 var _styledComponents = __webpack_require__(18);
 
@@ -10206,6 +10207,8 @@ var Section = exports.Section = _styledComponents2.default.section(_templateObje
 var Section__Title = exports.Section__Title = _styledComponents2.default.h1(_templateObject2);
 
 var Section__Content = exports.Section__Content = _styledComponents2.default.p(_templateObject3);
+
+var Container = exports.Container = _styledComponents2.default.div(_templateObject4);
 
 /***/ }),
 /* 23 */
@@ -17598,6 +17601,8 @@ var _react2 = _interopRequireDefault(_react);
 
 var _WhatWeDoStyle = __webpack_require__(94);
 
+var _styles = __webpack_require__(22);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function WhatWeDo() {
@@ -17605,29 +17610,33 @@ function WhatWeDo() {
         _WhatWeDoStyle.WhatWeDoSection,
         null,
         _react2.default.createElement(
-            _WhatWeDoStyle.Title,
+            _styles.Container,
             null,
-            'What we do'
-        ),
-        _react2.default.createElement(
-            _WhatWeDoStyle.Content,
-            null,
-            'Have you ever wanted to show the world what you do? We love to listen to our clients and help them find their own voice.'
-        ),
-        _react2.default.createElement(
-            _WhatWeDoStyle.Content,
-            null,
-            'We understand our client\'s needs and we have an specific insight for each of their projects.'
-        ),
-        _react2.default.createElement(
-            _WhatWeDoStyle.Content__YellowBg,
-            null,
-            'Let us tell your story.'
-        ),
-        _react2.default.createElement(
-            _WhatWeDoStyle.Content,
-            null,
-            'Websites. Apps. Brands. Campaigns. Social Media.'
+            _react2.default.createElement(
+                _WhatWeDoStyle.Title,
+                null,
+                'What we do'
+            ),
+            _react2.default.createElement(
+                _WhatWeDoStyle.Content,
+                null,
+                'Have you ever wanted to show the world what you do? We love to listen to our clients and help them find their own voice.'
+            ),
+            _react2.default.createElement(
+                _WhatWeDoStyle.Content,
+                null,
+                'We understand our client\'s needs and we have an specific insight for each of their projects.'
+            ),
+            _react2.default.createElement(
+                _WhatWeDoStyle.Content__YellowBg,
+                null,
+                'Let us tell your story.'
+            ),
+            _react2.default.createElement(
+                _WhatWeDoStyle.Content,
+                null,
+                'Websites. Apps. Brands. Campaigns. Social Media.'
+            )
         )
     );
 }
@@ -17648,7 +17657,7 @@ exports.Content__YellowBg = exports.Content = exports.WhatWeDoSection = exports.
 
 var _templateObject = _taggedTemplateLiteral(['\n  color: white;\n'], ['\n  color: white;\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n    background-color: #2A363C;\n'], ['\n    background-color: #2A363C;\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  display: inline-block;\n  padding: 8px 8px;\n  color: #2A363C;\n  font-size: 18px;\n  background-color: #FFDD17;\n  margin-bottom: 12px;\n'], ['\n  display: inline-block;\n  padding: 8px 8px;\n  color: #2A363C;\n  font-size: 18px;\n  background-color: #FFDD17;\n  margin-bottom: 12px;\n']);
+    _templateObject3 = _taggedTemplateLiteral(['\n  display: inline-block;\n  padding: 8px 8px;\n  background-color: #FFDD17;\n'], ['\n  display: inline-block;\n  padding: 8px 8px;\n  background-color: #FFDD17;\n']);
 
 var _styledComponents = __webpack_require__(18);
 
@@ -17685,6 +17694,8 @@ var _react2 = _interopRequireDefault(_react);
 
 var _WhereWeAreStyle = __webpack_require__(96);
 
+var _styles = __webpack_require__(22);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function WhereWeAre() {
@@ -17692,73 +17703,77 @@ function WhereWeAre() {
         _WhereWeAreStyle.WhereWeAreSection,
         null,
         _react2.default.createElement(
-            _WhereWeAreStyle.Title,
-            null,
-            'Where we are'
-        ),
-        _react2.default.createElement(
-            _WhereWeAreStyle.Content,
-            null,
-            'This is where our crew and our control rooms are.'
-        ),
-        _react2.default.createElement(
-            _WhereWeAreStyle.List,
+            _styles.Container,
             null,
             _react2.default.createElement(
-                _WhereWeAreStyle.ItemList,
+                _WhereWeAreStyle.Title,
                 null,
-                _react2.default.createElement(
-                    _WhereWeAreStyle.Content,
-                    null,
-                    'UK'
-                ),
-                _react2.default.createElement(
-                    _WhereWeAreStyle.Content__YellowBg,
-                    null,
-                    'London'
-                ),
-                _react2.default.createElement(
-                    _WhereWeAreStyle.Content,
-                    null,
-                    '+44 7462184402'
-                )
+                'Where we are'
             ),
             _react2.default.createElement(
-                _WhereWeAreStyle.ItemList,
+                _WhereWeAreStyle.Content,
                 null,
-                _react2.default.createElement(
-                    _WhereWeAreStyle.Content,
-                    null,
-                    'USA'
-                ),
-                _react2.default.createElement(
-                    _WhereWeAreStyle.Content__YellowBg,
-                    null,
-                    'Raleight'
-                ),
-                _react2.default.createElement(
-                    _WhereWeAreStyle.Content,
-                    null,
-                    '+1 6086099071'
-                )
+                'This is where our crew and our control rooms are.'
             ),
             _react2.default.createElement(
-                _WhereWeAreStyle.ItemList,
+                _WhereWeAreStyle.List,
                 null,
                 _react2.default.createElement(
-                    _WhereWeAreStyle.Content,
+                    _WhereWeAreStyle.ItemList,
                     null,
-                    'Venezuela'
+                    _react2.default.createElement(
+                        _WhereWeAreStyle.List_Content,
+                        null,
+                        'UK'
+                    ),
+                    _react2.default.createElement(
+                        _WhereWeAreStyle.Content__YellowBg,
+                        null,
+                        'London'
+                    ),
+                    _react2.default.createElement(
+                        _WhereWeAreStyle.List_Content,
+                        null,
+                        '+44 7462184402'
+                    )
                 ),
                 _react2.default.createElement(
-                    _WhereWeAreStyle.Content__YellowBg,
+                    _WhereWeAreStyle.ItemList,
                     null,
-                    'Maracaibo'
+                    _react2.default.createElement(
+                        _WhereWeAreStyle.List_Content,
+                        null,
+                        'USA'
+                    ),
+                    _react2.default.createElement(
+                        _WhereWeAreStyle.Content__YellowBg,
+                        null,
+                        'Raleight'
+                    ),
+                    _react2.default.createElement(
+                        _WhereWeAreStyle.List_Content,
+                        null,
+                        '+1 6086099071'
+                    )
                 ),
                 _react2.default.createElement(
-                    _WhereWeAreStyle.Content,
+                    _WhereWeAreStyle.ItemList,
                     null,
-                    '+58 4146201819'
+                    _react2.default.createElement(
+                        _WhereWeAreStyle.List_Content,
+                        null,
+                        'Venezuela'
+                    ),
+                    _react2.default.createElement(
+                        _WhereWeAreStyle.Content__YellowBg,
+                        null,
+                        'Maracaibo'
+                    ),
+                    _react2.default.createElement(
+                        _WhereWeAreStyle.List_Content,
+                        null,
+                        '+58 4146201819'
+                    )
                 )
             )
         )
@@ -17777,13 +17792,13 @@ exports.default = WhereWeAre;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Content = exports.Content__YellowBg = exports.ItemList = exports.Content__Title = exports.List = exports.Title = exports.WhereWeAreSection = undefined;
+exports.List_Content = exports.Content = exports.Content__YellowBg = exports.ItemList = exports.Content__Title = exports.List = exports.Title = exports.WhereWeAreSection = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n    background-color: #64B195;\n'], ['\n    background-color: #64B195;\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n  color: white;\n'], ['\n  color: white;\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n    padding-left: 0;\n    font-size: 18px;\n    text-align: center;\n    color: white;\n    position: relative;\n    overflow: hidden;\n    background-color: #64B195;\n    padding-top: 160px;\n    display: flex;\n    flex-wrap: nowrap;\n    justify-content: center;\n    &:before {\n      content: "";\n      background-image: url(./public/img/backgrounds/map.svg);\n      background-size: contain;\n      background-repeat: no-repeat;\n      background-position: center;\n      left: 0;\n      top: 0;\n      display: inline-block;\n      position: absolute;\n      width: 100%;\n      height: 140px;\n    }\n'], ['\n    padding-left: 0;\n    font-size: 18px;\n    text-align: center;\n    color: white;\n    position: relative;\n    overflow: hidden;\n    background-color: #64B195;\n    padding-top: 160px;\n    display: flex;\n    flex-wrap: nowrap;\n    justify-content: center;\n    &:before {\n      content: "";\n      background-image: url(./public/img/backgrounds/map.svg);\n      background-size: contain;\n      background-repeat: no-repeat;\n      background-position: center;\n      left: 0;\n      top: 0;\n      display: inline-block;\n      position: absolute;\n      width: 100%;\n      height: 140px;\n    }\n']),
+    _templateObject3 = _taggedTemplateLiteral(['\n    padding-left: 0;\n    font-size: 18px;\n    text-align: center;\n    color: white;\n    position: relative;\n    overflow: hidden;\n    background-color: #64B195;\n    padding-top: 160px;\n    display: flex;\n    flex-wrap: nowrap;\n    justify-content: center;\n    @media (min-width: 768px) {\n      padding-top: 260px;\n    }\n    &:before {\n      content: "";\n      background-image: url(./public/img/backgrounds/map.svg);\n      background-size: contain;\n      background-repeat: no-repeat;\n      background-position: center;\n      left: 0;\n      top: 0;\n      display: inline-block;\n      position: absolute;\n      width: 100%;\n      height: 140px;\n      @media (min-width: 768px) {\n        height: 240px;\n      }\n    }\n'], ['\n    padding-left: 0;\n    font-size: 18px;\n    text-align: center;\n    color: white;\n    position: relative;\n    overflow: hidden;\n    background-color: #64B195;\n    padding-top: 160px;\n    display: flex;\n    flex-wrap: nowrap;\n    justify-content: center;\n    @media (min-width: 768px) {\n      padding-top: 260px;\n    }\n    &:before {\n      content: "";\n      background-image: url(./public/img/backgrounds/map.svg);\n      background-size: contain;\n      background-repeat: no-repeat;\n      background-position: center;\n      left: 0;\n      top: 0;\n      display: inline-block;\n      position: absolute;\n      width: 100%;\n      height: 140px;\n      @media (min-width: 768px) {\n        height: 240px;\n      }\n    }\n']),
     _templateObject4 = _taggedTemplateLiteral(['\n    font-size: 18px;\n    text-align: center;\n    color: white;\n    position: relative;\n    overflow: hidden;\n    background-color: #64B195;\n'], ['\n    font-size: 18px;\n    text-align: center;\n    color: white;\n    position: relative;\n    overflow: hidden;\n    background-color: #64B195;\n']),
-    _templateObject5 = _taggedTemplateLiteral(['\n    font-size: 18px;\n    text-align: center;\n    color: white;\n    position: relative;\n    overflow: hidden;\n    background-color: #64B195;\n    padding: 0 4px;\n    flex: 0 0 calc(33.3333% - 8px);\n'], ['\n    font-size: 18px;\n    text-align: center;\n    color: white;\n    position: relative;\n    overflow: hidden;\n    background-color: #64B195;\n    padding: 0 4px;\n    flex: 0 0 calc(33.3333% - 8px);\n']),
+    _templateObject5 = _taggedTemplateLiteral(['\n    font-size: 18px;\n    text-align: center;\n    color: white;\n    position: relative;\n    overflow: hidden;\n    background-color: #64B195;\n    padding: 0 4px;\n    flex: 0 0 calc(33.3333% - 8px);\n    max-width: 220px;\n'], ['\n    font-size: 18px;\n    text-align: center;\n    color: white;\n    position: relative;\n    overflow: hidden;\n    background-color: #64B195;\n    padding: 0 4px;\n    flex: 0 0 calc(33.3333% - 8px);\n    max-width: 220px;\n']),
     _templateObject6 = _taggedTemplateLiteral(['\n  display: inline-block;\n  padding: 8px 8px;\n  color: #2A363C;\n  font-size: 18px;\n  background-color: #FFDD17;\n  margin-bottom: 12px;\n'], ['\n  display: inline-block;\n  padding: 8px 8px;\n  color: #2A363C;\n  font-size: 18px;\n  background-color: #FFDD17;\n  margin-bottom: 12px;\n']),
     _templateObject7 = _taggedTemplateLiteral(['\n  color: white;\n  text-align: center;\n'], ['\n  color: white;\n  text-align: center;\n']);
 
@@ -17808,7 +17823,9 @@ var ItemList = exports.ItemList = _styledComponents2.default.li(_templateObject5
 
 var Content__YellowBg = exports.Content__YellowBg = (0, _styledComponents2.default)(_styles.Section__Content)(_templateObject6);
 
-var Content = exports.Content = (0, _styledComponents2.default)(_styles.Section__Content)(_templateObject7);
+var Content = exports.Content = (0, _styledComponents2.default)(_styles.Section__Content)(_templateObject2);
+
+var List_Content = exports.List_Content = (0, _styledComponents2.default)(_styles.Section__Content)(_templateObject7);
 
 /***/ }),
 /* 97 */
@@ -17827,6 +17844,8 @@ var _react2 = _interopRequireDefault(_react);
 
 var _WhoWeAreStyle = __webpack_require__(98);
 
+var _styles = __webpack_require__(22);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function WhoWeAre() {
@@ -17834,24 +17853,28 @@ function WhoWeAre() {
         _WhoWeAreStyle.WhoWeAreSection,
         null,
         _react2.default.createElement(
-            _WhoWeAreStyle.Title,
+            _styles.Container,
             null,
-            'Who we are'
-        ),
-        _react2.default.createElement(
-            _WhoWeAreStyle.Content,
-            null,
-            'We are a digital agency on both sides of the pond focused on developing the best content for your brand and using technology to bring it to the people.'
-        ),
-        _react2.default.createElement(
-            _WhoWeAreStyle.ContentBlack,
-            null,
-            'Our passion is letting people know yours.'
-        ),
-        _react2.default.createElement(
-            _WhoWeAreStyle.Content,
-            null,
-            'We love technology. We     are passionate about making content. We build relationships.'
+            _react2.default.createElement(
+                _WhoWeAreStyle.Title,
+                null,
+                'Who we are'
+            ),
+            _react2.default.createElement(
+                _WhoWeAreStyle.Content,
+                null,
+                'We are a digital agency on both sides of the pond focused on developing the best content for your brand and using technology to bring it to the people.'
+            ),
+            _react2.default.createElement(
+                _WhoWeAreStyle.ContentBlack,
+                null,
+                'Our passion is letting people know yours.'
+            ),
+            _react2.default.createElement(
+                _WhoWeAreStyle.Content,
+                null,
+                'We love technology. We     are passionate about making content. We build relationships.'
+            )
         )
     );
 }
@@ -17873,7 +17896,7 @@ exports.ContentBlack = exports.Content = exports.WhoWeAreSection = exports.Title
 var _templateObject = _taggedTemplateLiteral(['\n  color: white;\n  text-align: left;\n'], ['\n  color: white;\n  text-align: left;\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n    color: white;\n    background-color: #F05958;\n'], ['\n    color: white;\n    background-color: #F05958;\n']),
     _templateObject3 = _taggedTemplateLiteral(['\n  color: white;\n'], ['\n  color: white;\n']),
-    _templateObject4 = _taggedTemplateLiteral(['\n  padding: 8px 18px;\n  color: white;\n  background-color: #2A363C;\n'], ['\n  padding: 8px 18px;\n  color: white;\n  background-color: #2A363C;\n']);
+    _templateObject4 = _taggedTemplateLiteral(['\n  padding: 8px 18px;\n  color: white;\n  background-color: #2A363C;\n  display: inline-block;\n'], ['\n  padding: 8px 18px;\n  color: white;\n  background-color: #2A363C;\n  display: inline-block;\n']);
 
 var _styledComponents = __webpack_require__(18);
 

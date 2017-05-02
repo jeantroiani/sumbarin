@@ -5,41 +5,46 @@ import {
     Content,
     Content__YellowBg,
     List,
-    ItemList
+    ItemList,
+    List_Content
 } from './WhereWeAreStyle.js';
-
+import {
+    Container
+} from '../../style/styled/styles.js';
 
 function WhereWeAre() {
     return (
         <WhereWeAreSection>
-            <Title>Where we are</Title>
-            <Content>
-                This is where our crew and our control rooms are.
-            </Content>
-            <List>
-                <ItemList>
-                    <Content>UK</Content>
-                    <Content__YellowBg>
-                        London
-                    </Content__YellowBg>
-                    <Content>+44 7462184402
-                    </Content>
-                </ItemList>
-                <ItemList>
-                    <Content>USA</Content>
-                    <Content__YellowBg>
-                        Raleight
-                    </Content__YellowBg>
-                    <Content>+1 6086099071</Content>
-                </ItemList>
-                <ItemList>
-                    <Content>Venezuela</Content>
-                    <Content__YellowBg>
-                        Maracaibo
-                    </Content__YellowBg>
-                    <Content>+58 4146201819</Content>
-                </ItemList>
-            </List>
+            <Container>
+                <Title>Where we are</Title>
+                <Content>
+                    This is where our crew and our control rooms are.
+                </Content>
+                <List>
+                    <ItemList>
+                        <List_Content>UK</List_Content>
+                        <Content__YellowBg>
+                            London
+                        </Content__YellowBg>
+                        <List_Content>+44 7462184402
+                        </List_Content>
+                    </ItemList>
+                    <ItemList>
+                        <List_Content>USA</List_Content>
+                        <Content__YellowBg>
+                            Raleight
+                        </Content__YellowBg>
+                        <List_Content>+1 6086099071</List_Content>
+                    </ItemList>
+                    <ItemList>
+                        <List_Content>Venezuela</List_Content>
+                        <Content__YellowBg>
+                            Maracaibo
+                        </Content__YellowBg>
+                        <List_Content>+58 4146201819</List_Content>
+                    </ItemList>
+                </List>
+            </Container>
         </WhereWeAreSection>
     );
 }

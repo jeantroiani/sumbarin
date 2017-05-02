@@ -22,4 +22,5 @@ export const ContentBlack = styled(Section__Content) `
   padding: 8px 18px;
   color: white;
   background-color: #2A363C;
+  display: inline-block;
 `;

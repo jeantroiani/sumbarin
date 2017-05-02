@@ -11,16 +11,28 @@ export const Section = styled.section `
 
 export const Section__Title = styled.h1 `
     font-size: 24px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     color: #2A363C;
-    text-transform: uppercase;
     text-align: left;
+    @media (min-width: 768px) {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
 `
 
 export const Section__Content = styled.p `
     font-size: 16px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     color: #2A363C;
     text-align: left;
+    @media (min-width: 768px) {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+        
 `
 
+export const Container = styled.div `
+    max-width: 960px;
+    margin: 0 auto;
+`

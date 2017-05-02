@@ -25,6 +25,9 @@ export const List = styled.ul `
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    @media (min-width: 768px) {
+      padding-top: 260px;
+    }
     &:before {
       content: "";
       background-image: url(./public/img/backgrounds/map.svg);
@@ -37,6 +40,9 @@ export const List = styled.ul `
       position: absolute;
       width: 100%;
       height: 140px;
+      @media (min-width: 768px) {
+        height: 240px;
+      }
     }
 `;
 export const Content__Title = styled.h2 `
@@ -57,6 +63,7 @@ export const ItemList = styled.li `
     background-color: #64B195;
     padding: 0 4px;
     flex: 0 0 calc(33.3333% - 8px);
+    max-width: 220px;
 `;
 
 export const Content__YellowBg = styled(Section__Content) `
@@ -69,6 +76,10 @@ export const Content__YellowBg = styled(Section__Content) `
 `;
 
 export const Content = styled(Section__Content) `
+  color: white;
+`;
+
+export const List_Content = styled(Section__Content) `
   color: white;
   text-align: center;
 `;
