@@ -5,16 +5,12 @@ import FeaturedWork from '../FeaturedWork/FeaturedWork';
 import WhatWeDo from '../WhatWeDo/WhatWeDo';
 import WhereWeAre from '../WhereWeAre/WhereWeAre';
 import Footer from '../Footer/Footer';
-
+import LaunchingSoon from '../LaunchingSoon/LaunchingSoon';
 
 function Home() {
     return (
         <div>
-            <Hero/>
-            <WhoWeAre/>
-            <WhatWeDo/>
-            <WhereWeAre/>
-            <Footer/>
+            <LaunchingSoon/>
         </div>
     );
 }
