@@ -9,9 +9,7 @@ import LaunchingSoon from '../LaunchingSoon/LaunchingSoon';
 
 function Home() {
     return (
-        <div>
-            <LaunchingSoon/>
-        </div>
+        <LaunchingSoon />
     );
 }
 

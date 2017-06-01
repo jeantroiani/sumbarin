@@ -17575,11 +17575,7 @@ var _LaunchingSoon2 = _interopRequireDefault(_LaunchingSoon);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Home() {
-    return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(_LaunchingSoon2.default, null)
-    );
+    return _react2.default.createElement(_LaunchingSoon2.default, null);
 }
 
 exports.default = Home;
@@ -17594,6 +17590,7 @@ exports.default = Home;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
+exports.default = LaunchingSoon;
 
 var _react = __webpack_require__(12);
 
@@ -17604,10 +17601,52 @@ var _LaunchingSoonStyle = __webpack_require__(94);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function LaunchingSoon() {
-    return _react2.default.createElement(_LaunchingSoonStyle.LanchingSoonSection, null);
+    return _react2.default.createElement(
+        _LaunchingSoonStyle.LanchingSoonSection,
+        null,
+        _react2.default.createElement(
+            _LaunchingSoonStyle.Title,
+            null,
+            'Sumbarin'
+        ),
+        _react2.default.createElement(
+            _LaunchingSoonStyle.Content,
+            null,
+            'Be ready, we are lauching soon'
+        ),
+        _react2.default.createElement(
+            _LaunchingSoonStyle.List,
+            null,
+            _react2.default.createElement(
+                _LaunchingSoonStyle.List__Item,
+                null,
+                _react2.default.createElement(
+                    _LaunchingSoonStyle.Link__Twitter,
+                    { href: 'http://www.twitter.com/thesumbarin' },
+                    'Twitter'
+                )
+            ),
+            _react2.default.createElement(
+                _LaunchingSoonStyle.List__Item,
+                null,
+                _react2.default.createElement(
+                    _LaunchingSoonStyle.Link__Facebook,
+                    { href: 'http://www.facebook.com/thesumbarin' },
+                    'Facebook'
+                )
+            ),
+            _react2.default.createElement(
+                _LaunchingSoonStyle.List__Item,
+                null,
+                _react2.default.createElement(
+                    _LaunchingSoonStyle.Link__Instagram,
+                    { href: 'http://www.instagram.com/thesumbarin' },
+                    'Instagram'
+                )
+            )
+        )
+    );
 }
-
-exports.default = LaunchingSoon;
 
 /***/ }),
 /* 94 */
@@ -17619,10 +17658,18 @@ exports.default = LaunchingSoon;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.LanchingSoonSection = exports.xx = undefined;
+exports.Link__Instagram = exports.Link__Facebook = exports.Link__Twitter = exports.Social__Link = exports.List__Item = exports.List = exports.Content = exports.Title = exports.LanchingSoonSection = exports.xx = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n  font-family: rounded;\n  font-size: 36px;\n  padding-top: 200px;\n  text-align: center;\n  text-transform: lowercase;\n  &:before {\n    content: "";\n    background-image: url(./public/img/icons/logoSumbarinCircleRedBg.svg);\n    background-size: contain;\n    background-repeat: no-repeat;\n    background-position: center;\n    right: 50%;\n    top: 30%;\n    display: inline-block;\n    position: absolute;\n    width: 100px;\n    height: 100px;\n    transform: translateX(50%);\n  }\n'], ['\n  font-family: rounded;\n  font-size: 36px;\n  padding-top: 200px;\n  text-align: center;\n  text-transform: lowercase;\n  &:before {\n    content: "";\n    background-image: url(./public/img/icons/logoSumbarinCircleRedBg.svg);\n    background-size: contain;\n    background-repeat: no-repeat;\n    background-position: center;\n    right: 50%;\n    top: 30%;\n    display: inline-block;\n    position: absolute;\n    width: 100px;\n    height: 100px;\n    transform: translateX(50%);\n  }\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n    background-color: white;\n    background-image: url(./public/img/backgrounds/loading.jpg);\n    background-size: cover;\n    height: 100vh;\n    width: 100%;\n    background-repeat: no-repeat;\n    background-position: center;\n'], ['\n    background-color: white;\n    background-image: url(./public/img/backgrounds/loading.jpg);\n    background-size: cover;\n    height: 100vh;\n    width: 100%;\n    background-repeat: no-repeat;\n    background-position: center;\n']);
+    _templateObject2 = _taggedTemplateLiteral(['\n    background-color: white;\n    background-image: url(./public/img/backgrounds/loading.jpg);\n    background-size: cover;\n    height: 100vh;\n    width: 100%;\n    background-repeat: no-repeat;\n    background-position: center;\n    text-align: center;\n'], ['\n    background-color: white;\n    background-image: url(./public/img/backgrounds/loading.jpg);\n    background-size: cover;\n    height: 100vh;\n    width: 100%;\n    background-repeat: no-repeat;\n    background-position: center;\n    text-align: center;\n']),
+    _templateObject3 = _taggedTemplateLiteral(['\n  font-family: rounded;\n  font-size: 80px;\n  padding-top: 200px;\n  text-align: center;\n  text-transform: lowercase;\n  color: white;\n  @media (min-width: 768px) {\n\t\t  font-size: 120px;\n\t}\n'], ['\n  font-family: rounded;\n  font-size: 80px;\n  padding-top: 200px;\n  text-align: center;\n  text-transform: lowercase;\n  color: white;\n  @media (min-width: 768px) {\n\t\t  font-size: 120px;\n\t}\n']),
+    _templateObject4 = _taggedTemplateLiteral(['\n  font-family: lato;\n  font-size: 24px;\n  text-align: center;\n  text-transform: lowercase;\n  color: white;\n  @media (min-width: 768px) {\n    font-size: 28px;\n  }\n'], ['\n  font-family: lato;\n  font-size: 24px;\n  text-align: center;\n  text-transform: lowercase;\n  color: white;\n  @media (min-width: 768px) {\n    font-size: 28px;\n  }\n']),
+    _templateObject5 = _taggedTemplateLiteral(['\n  color: rgb(32, 42, 46);\n  margin-bottom: 20px;\n  padding-left: 0;\n'], ['\n  color: rgb(32, 42, 46);\n  margin-bottom: 20px;\n  padding-left: 0;\n']),
+    _templateObject6 = _taggedTemplateLiteral(['\n  color: black;\n  display: inline-block;\n  flex: 0 0 auto;\n  font-size: 28px;\n  width: 42px;\n  height: 42px;\n  margin: 0 24px;\n'], ['\n  color: black;\n  display: inline-block;\n  flex: 0 0 auto;\n  font-size: 28px;\n  width: 42px;\n  height: 42px;\n  margin: 0 24px;\n']),
+    _templateObject7 = _taggedTemplateLiteral(['\n  color: white;\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: center;\n  text-indent: -9999px;\n  white-space: nowrap;\n  display: inline-block;\n  position: relative;\n  height: 100%;\n  width: 100%;\n  transtion: color .2s;\n  &:hover {\n    color: black;\n  }\n'], ['\n  color: white;\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: center;\n  text-indent: -9999px;\n  white-space: nowrap;\n  display: inline-block;\n  position: relative;\n  height: 100%;\n  width: 100%;\n  transtion: color .2s;\n  &:hover {\n    color: black;\n  }\n']),
+    _templateObject8 = _taggedTemplateLiteral(['\n  background-image: url(./public/img/icons/logoTwitter.svg);\n'], ['\n  background-image: url(./public/img/icons/logoTwitter.svg);\n']),
+    _templateObject9 = _taggedTemplateLiteral(['\n  background-image: url(./public/img/icons/logoFacebook.svg);\n'], ['\n  background-image: url(./public/img/icons/logoFacebook.svg);\n']),
+    _templateObject10 = _taggedTemplateLiteral(['\n  background-image: url(./public/img/icons/logoInstagram.svg);\n'], ['\n  background-image: url(./public/img/icons/logoInstagram.svg);\n']);
 
 var _styledComponents = __webpack_require__(16);
 
@@ -17637,6 +17684,18 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 var xx = exports.xx = (0, _styledComponents2.default)(_styles.Section__Title)(_templateObject);
 
 var LanchingSoonSection = exports.LanchingSoonSection = (0, _styledComponents2.default)('div')(_templateObject2);
+
+var Title = exports.Title = (0, _styledComponents2.default)('h1')(_templateObject3);
+
+var Content = exports.Content = (0, _styledComponents2.default)('p')(_templateObject4);
+
+var List = exports.List = _styledComponents2.default.ul(_templateObject5);
+var List__Item = exports.List__Item = _styledComponents2.default.li(_templateObject6);
+
+var Social__Link = exports.Social__Link = _styledComponents2.default.a(_templateObject7);
+var Link__Twitter = exports.Link__Twitter = (0, _styledComponents2.default)(Social__Link)(_templateObject8);
+var Link__Facebook = exports.Link__Facebook = (0, _styledComponents2.default)(Social__Link)(_templateObject9);
+var Link__Instagram = exports.Link__Instagram = (0, _styledComponents2.default)(Social__Link)(_templateObject10);
 
 /***/ }),
 /* 95 */
