@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Portrait" transform="translate(-60.000000, -3697.000000)">
+            <g id="Group-16" transform="translate(-54.000000, -98.000000)">
+                <g id="Group-13" transform="translate(114.000000, 3795.000000)">
+                    <path d="M50,25 C50,38.806814 38.806814,50 25,50 C11.1925715,50 0,38.806814 0,25 C0,11.1925715 11.1925715,0 25,0 C38.806814,0 50,11.1925715 50,25" id="Fill-3" fill="#65003A"></path>
+                    <path d="M21.3381677,41.0503765 L27.7551683,41.0503765 L27.7551683,24.3849715 L32.2326885,24.3849715 L32.7095696,18.8043425 L27.7551683,18.8043425 L27.7551683,15.6265197 C27.7551683,14.3110311 28.0102013,13.7909542 29.2368182,13.7909542 L32.7095696,13.7909542 L32.7095696,8 L28.2658489,8 C23.4908926,8 21.3381677,10.1810087 21.3381677,14.3556455 L21.3381677,18.8043425 L18,18.8043425 L18,24.4544425 L21.3381677,24.4544425 L21.3381677,41.0503765 Z" id="Fill-5" fill="#FCDBDC"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

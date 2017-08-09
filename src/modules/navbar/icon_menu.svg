@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="448px" height="320px" viewBox="0 0 448 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hamburger" fill-rule="nonzero" fill="#FFFFFF">
+            <rect id="Rectangle" x="32" y="0" width="384" height="64"></rect>
+            <circle id="Oval" cx="32" cy="32" r="32"></circle>
+            <circle id="Oval" cx="416" cy="32" r="32"></circle>
+            <rect id="Rectangle" x="32" y="128" width="384" height="64"></rect>
+            <circle id="Oval" cx="32" cy="160" r="32"></circle>
+            <circle id="Oval" cx="416" cy="160" r="32"></circle>
+            <rect id="Rectangle" x="32" y="256" width="384" height="64"></rect>
+            <circle id="Oval" cx="32" cy="288" r="32"></circle>
+            <circle id="Oval" cx="416" cy="288" r="32"></circle>
+        </g>
+    </g>
+</svg>

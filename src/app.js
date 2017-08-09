@@ -1,1 +1,1 @@
-import '../public/scripts/app.js';
+import './scripts/app';

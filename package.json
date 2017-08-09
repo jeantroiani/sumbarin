@@ -4,7 +4,9 @@
   "description": "Sumbarin website",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack --watch",
+    "dev": "webpack-dev-server --open",
+    "watch": "webpack --progress --watch",
+    "start": "webpack --config webpack.config.js",
     "build": "webpack -p"
   },
   "repository": {
@@ -19,21 +21,29 @@
   "homepage": "https://github.com/jeantroiani/sumbarin#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.1",
     "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.0",
-    "file-loader": "^0.11.1",
+    "file-loader": "^0.11.2",
     "less": "^2.7.2",
     "less-loader": "^4.0.3",
     "react": "^15.5.4",
     "style-loader": "^0.16.1",
     "url-loader": "^0.5.8",
-    "webpack": "^2.2.0"
+    "webpack": "3.0.0",
+    "webpack-dev-server": "^2.5.0"
   },
   "dependencies": {
+    "nuka-carousel": "^2.0.4",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router": "^4.1.1",
-    "styled-components": "^1.4.4"
+    "react-router-dom": "^4.1.1",
+    "react-validation": "^2.10.9",
+    "styled-components": "^2.1.0"
   }
 }
