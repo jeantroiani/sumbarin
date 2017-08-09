@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="49px" viewBox="0 0 62 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Portrait" transform="translate(-134.000000, -2032.000000)" stroke="#FFFFFF" stroke-width="1.3">
+            <g id="Group-16" transform="translate(-54.000000, -87.000000)">
+                <g id="Group-11" transform="translate(189.000000, 2120.000000)">
+                    <circle id="Oval-4" cx="4" cy="42.5504386" r="4"></circle>
+                    <circle id="Oval-4-Copy" cx="21" cy="26.5504386" r="4"></circle>
+                    <path d="M25.5,26.2004386 L38.5384048,26.2004386" id="Line" stroke-linecap="square"></path>
+                    <path d="M45.5,23.0504386 L53.5,9.0504386" id="Line" stroke-linecap="square"></path>
+                    <circle id="Oval-4-Copy-2" cx="43" cy="26.5504386" r="4"></circle>
+                    <path d="M7.5,39.0504386 L17.5,29.0504386" id="Line" stroke-linecap="square"></path>
+                    <circle id="Oval-4-Copy-3" cx="56" cy="4.5504386" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
