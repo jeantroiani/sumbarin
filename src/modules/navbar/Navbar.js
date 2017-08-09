@@ -7,7 +7,7 @@ import { NavLink } from '../../style/styled/styles';
 const Navbar = () => (
     <NavigationMenu>
         {/*<SocialLinks /> */}
-        <Menu>
+        {/* <Menu>
             <MenuItem>
                 <NavLink to="/">Home</NavLink>
             </MenuItem>
@@ -17,7 +17,7 @@ const Navbar = () => (
             <MenuItem>
                 <NavLink to="/contact">Contact us</NavLink>
             </MenuItem>
-        </Menu>
+        </Menu> */}
         <MenuButton/>
     </NavigationMenu>
 );

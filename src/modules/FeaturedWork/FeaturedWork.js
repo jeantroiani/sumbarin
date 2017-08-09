@@ -11,12 +11,15 @@ import {
 
 import FeaturedClient from '../FeaturedClient/FeaturedClient';
 
-import {Container} from '../../style/styled/styles.js';
+import { Container } from '../../style/styled/styles.js';
 
-import australia from './australia.png';
-import spanishHomemade from './spanishHomemade.png';
-import newLifeChurch from './newlifechurch.png';
-import woodlands from './woodlands.png';
+import one from './sumba mason 1.png';
+import two from './sumba mason 2.png';
+import three from './sumba mason 3.png';
+import four from './sumba mason 4.png';
+import five from './sumba mason 5.png';
+import six from './sumba mason 6.png';
+import seven from './sumba mason 7.png';
 
 function FeaturedWork() {
     return (
@@ -24,13 +27,13 @@ function FeaturedWork() {
             <Container>
                 <Title>Featured work</Title>
                 <FeatureWorkSectionList>
-                    <FeaturedClient image={australia} alt={"australia photography"}/>
-                    <FeaturedClient image={spanishHomemade} alt={"spanish homemade food"}/>
-                    <FeaturedClient image={newLifeChurch} alt={"New Life Church Base Hove"}/>
-                    <FeaturedClient image={woodlands} alt={"Woodlands fences"}/>
-                    <FeaturedClient image={newLifeChurch} alt={"New Life Church Base Hove"}/>
-                    <FeaturedClient image={woodlands} alt={"New Life Church Base Hove"}/>
-                    <FeaturedClient image={spanishHomemade} alt={"spanish homemade food"}/>
+                    <FeaturedClient image={one} alt={"photography"}/>
+                    <FeaturedClient image={two} alt={"spanish homemade food"}/>
+                    <FeaturedClient image={six} alt={"New Life Church Base Hove"}/>
+                    <FeaturedClient image={five} alt={"New Life Church Base Hove"}/>
+                    <FeaturedClient image={seven} alt={"spanish homemade food"}/>
+                    <FeaturedClient image={three} alt={"New Life Church Base Hove"}/>
+                    <FeaturedClient image={four} alt={"Woodlands fences"}/>
                 </FeatureWorkSectionList>
             </Container>
         </FeatureWorkSection>

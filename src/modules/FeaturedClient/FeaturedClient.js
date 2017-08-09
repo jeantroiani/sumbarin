@@ -1,13 +1,4 @@
 import React from 'react';
-// import {
-//     Title,
-//     HeroSection,
-//     FeatureWorkSection,
-//     FeatureWorkSectionList,
-//     Content,
-//     ListItem,
-//     List
-// } from './FeaturedClientStyle';
 import {
     Image
 } from './FeaturedClientStyle';

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Title, WhoWeAreSection, ContentBlack } from './WhoWeAreStyle.js';
 import { SectionLink } from '../../style/styled/styles';
-// import {Link} from 'react-router-dom';
 import { Container, SectionContent } from '../../style/styled/styles.js';
 import { Carrousel } from '../Carrousel/Carrousel'; 
+
 function WhoWeAre() {
     return (
         <WhoWeAreSection>

@@ -1,6 +1,10 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import {theme} from '../../style/theme.js'
+import {
+    Link
+} from 'react-router-dom';
+import {
+    theme
+} from '../../style/theme.js'
 
 
 export const Section = styled.section `
@@ -102,14 +106,13 @@ export const SectionLink = styled(Link)`
     border-radius: 2px;
     margin-bottom: 16px;
     background-color: rgb(30, 52, 110);
-  &:hover {
-    background: ${props => props.secondary ? `40px 20px` : `linear-gradient(to left, rgb(56, 185, 184) 0%, rgb(5, 141,205) 100%) left bottom transparent no-repeat;`}
-    background-size: cover;
+    &:hover {
+        background: ${props => props.secondary ? `40px 20px` : `linear-gradient(to left, rgb(56, 185, 184) 0%, rgb(5, 141,205) 100%) left bottom transparent no-repeat;`};
+        background-size: cover;
     };
-
 `;
 
-export const SectionButton = styled.button`
+export const SectionButton = styled.button `
     border: 1px white solid;
     color: white;
     text-transform: uppercase;
@@ -124,7 +127,7 @@ export const SectionButton = styled.button`
     pointer-events: ${props => props.disabled ? `none` : `initial`};
     cursor: pointer;
     &:hover {
-        background: ${props => props.secondary ? `40px 20px` : `linear-gradient(to left, rgb(56, 185, 184) 0%, rgb(5, 141,205) 100%) left bottom transparent no-repeat;`}
+        background: ${props => props.secondary ? `40px 20px` : `linear-gradient(to left, rgb(56, 185, 184) 0%, rgb(5, 141,205) 100%) left bottom transparent no-repeat;`};
         background-size: cover;
     };
 `;
@@ -136,13 +139,12 @@ export const NavLink = styled(Link)`
     padding: 12px 18px;
     display: block;
     border-bottom: 2px transparent solid;
-  &:hover {
-    border-bottom: 2px white solid;
+    &:hover {
+        border-bottom: 2px white solid;
     };
-
 `;
 
-export const FormErrorContainer = styled.p`
+export const FormErrorContainer = styled.p `
     color: white;
     background-color: red;
     text-transform: uppercase;
@@ -150,8 +152,7 @@ export const FormErrorContainer = styled.p`
     padding: 12px 18px;
     display: block;
     border-bottom: 2px transparent solid;
-  &:hover {
-    border-bottom: 2px white solid;
+    &:hover {
+        border-bottom: 2px white solid;
     };
-
 `;
