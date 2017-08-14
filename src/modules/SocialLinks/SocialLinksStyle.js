@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 import facebookIcon from './facebook_circle_white.svg';
 import twitterIcon from './twitter_circle_white.svg';
-import instagramIconRed from './instagram_circle_red.svg';
-import twitterIconRed from './twitter_circle_red.svg';
-import facebookIconRed from './facebook_circle_red.svg';
+import instagramIcon from './instagram_circle_white.svg';
 
 export const SocialLinksList = styled.ul `
     display: block;
@@ -37,4 +35,8 @@ export const SocialLinkMail = SocialLink.extend `
 
 export const SocialLinkFacebook = SocialLink.extend `
     background-image: url(${facebookIcon});
+`;
+
+export const SocialLinkInstagram = SocialLink.extend `
+background-image: url(${instagramIcon});
 `;
