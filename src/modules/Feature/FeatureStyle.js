@@ -8,6 +8,7 @@ export const Title = styled(ListTitle)`
     color: black;
     letter-spacing: 3px;
     text-transform: uppercase;
+    text-align: -webkit-center;
     &:before {
         content: "";
         background-image: ${props => props.image ? `url(${props.image})` : iconMonitor};
