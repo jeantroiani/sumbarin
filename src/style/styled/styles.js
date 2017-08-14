@@ -41,7 +41,7 @@ export const Subtitle = styled.h2 `
     padding-bottom: 14px;
     margin-bottom: 20px;
     color: rgb(30, 52, 110);
-    text-align: left;
+    text-align: text;
     display: inline-block;
     width: 100%;
     @media (min-width: 768px) {

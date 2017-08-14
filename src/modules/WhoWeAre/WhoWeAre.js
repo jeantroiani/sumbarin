@@ -16,7 +16,7 @@ function WhoWeAre() {
                     <SectionContent>
                         Have you ever wanted to show the world what you do?
                     </SectionContent>
-                    <SectionLink to="/about">Read more</SectionLink>
+                    {/* <SectionLink to="/about">Read more</SectionLink> */}
                 </HalfScreen>
             </ContainerWhoWeAre>
                 <SecondScreen>

@@ -22,7 +22,6 @@ function WhatWeDo() {
         <WhatWeDoSection>
             <Container>
                 <Title>Services</Title>
-                <Subtitle>from an idea to an memorable experience.</Subtitle>
                 <SectionContent secondary>All of our services are custom-designed. We develop compelling experiences to bring revenue and maximize lifetime customer value.</SectionContent>
                 <SectionLink to="/contact">Contact us</SectionLink>
             </Container>

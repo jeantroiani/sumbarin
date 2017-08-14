@@ -2,7 +2,7 @@ import styled, { keyframes } from 'styled-components';
 import {theme} from '../../style/theme.js'
 import cloud from './cloud.svg';
 import sumbarin from './logo_sumbarin.png';
-import {Section, Section__Title, Section__Content} from '../../style/styled/styles';
+import {Section, Subtitle, Section__Title, Section__Content} from '../../style/styled/styles';
 
 
 export const Title = styled(Section__Title)`
@@ -73,43 +73,14 @@ const slideIn2 = keyframes`
 export const HeroSection = styled(Section)`
   background-color: ${theme.bg};
   overflow: hidden;  
-  // &:before {
-  //   content: "";
-  //   background-image: url(${cloud});
-  //   background-size: 250px;
-  //   background-repeat: no-repeat;
-  //   background-position: 110% 10%;
-  //   right: 0;
-  //   top: 0;
-  //   display: inline-block;
-  //   position: absolute;
-  //   width: 130%;
-  //   height: 100%;
-  //   opacity: .8;
-  //   animation: 10s ${slideIn} ease-out;
-  // }
-  // &:after {
-  //   content: "";
-  //   background-image: url(${cloud});
-  //   background-size: 160px;
-  //   background-repeat: no-repeat;
-  //   background-position:  0% 80%;
-  //   top: 0;
-  //   right: 0;
-  //   display: inline-block;
-  //   position: absolute;
-  //   width: 100%;
-  //   height: 100%;
-  //   opacity: .8;
-  //   animation: 12s ${slideIn2} ease-out;
-  // }
 `;
 
-export const Hero__Content = styled.p `
-  display: inline-block;
+export const Hero__Content = Subtitle.extend`
   font-size: 20px;
-  color: white;
-  padding: 8px 18px;
+  text-align: center;
+  @media ${theme.query.medium} {
+    font-size: 20px;    
+  }
 `
 export const Content = styled.div `
   padding-bottom: 100%;
