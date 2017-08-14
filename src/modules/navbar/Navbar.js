@@ -18,7 +18,7 @@ const Navbar = () => (
                 <NavLink to="/contact">Contact us</NavLink>
             </MenuItem>
         </Menu> */}
-        <MenuButton/>
+        {/* <MenuButton/> */}
     </NavigationMenu>
 );
 
