@@ -7,7 +7,7 @@
     "dev": "webpack-dev-server --open",
     "watch": "webpack --progress --watch",
     "start": "webpack --config webpack.config.js",
-    "build": "webpack -p"
+    "build": "webpack --optimize-minimize -p"
   },
   "repository": {
     "type": "git",
@@ -43,6 +43,7 @@
     "react-dom": "^15.5.4",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
+    "react-scroll": "^1.5.4",
     "react-validation": "^2.10.9",
     "styled-components": "^2.1.0"
   }

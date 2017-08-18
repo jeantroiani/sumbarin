@@ -10,6 +10,7 @@ import {
 } from './ContactFormStyle';
 import {SectionButton} from '../../style/styled/styles';
 import {FormErrors} from '../FormErrors/FormErrors';
+import Scroll, { Link, Element } from 'react-scroll';
 
 class ContactForm extends Component {
     constructor(props) {
@@ -61,7 +62,8 @@ class ContactForm extends Component {
 
     render() {
         return (
-            <Form method="POST" action="http://formspree.io/digitalguest@gmail.com">
+            <Form method="POST" action="http://formspree.io/sumbarinstudio@gmail.com">
+                <Element name="contactForm">
                 <Fieldset>
                     <Legend>Contact us</Legend>
                     <input type="hidden" name="_next" value="/"/>
@@ -71,11 +73,12 @@ class ContactForm extends Component {
                     <Input onChange={(event) => this.handleUserInput(event)} name="email" id="your-email" type={'email'}
                         placeholder={"Your email"}/>
                     <Textarea name="message" id="your message" placeholder={"How can we help you?"}/>
-                    <SectionButton disabled={!this.state.formValid} type="submit">Sumbit</SectionButton>
+                    <SectionButton disabled={!this.state.formValid} type="submit">Submit</SectionButton>
                 </Fieldset>
                 <div>
                     <FormErrors formErrors={this.state.formErrors} />
                 </div>
+                </Element>
             </Form>
         )
     }

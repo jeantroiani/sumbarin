@@ -5,7 +5,7 @@ import {
 import {
     theme
 } from '../../style/theme.js'
-
+import Scroll, { Link as ScrollLink } from 'react-scroll';
 
 export const Section = styled.section `
     font-size: 16px;
@@ -96,7 +96,7 @@ export const Container = styled.div `
     }
 `
 
-export const SectionLink = styled(Link)`
+export const SectionLink = styled(ScrollLink)`
     border: 1px white solid;
     color: white;
     text-transform: uppercase;
@@ -104,7 +104,7 @@ export const SectionLink = styled(Link)`
     display: inline-flex;
     text-decoration: none;
     border-radius: 2px;
-    margin-bottom: 16px;
+    margin-bottom: 64px;
     background-color: rgb(30, 52, 110);
     &:hover {
         background: ${props => props.secondary ? `40px 20px` : `linear-gradient(to left, rgb(56, 185, 184) 0%, rgb(5, 141,205) 100%) left bottom transparent no-repeat;`};

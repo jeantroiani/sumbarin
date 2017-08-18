@@ -16,6 +16,8 @@ import iconSplines from './icon_splines.svg';
 import iconMobile from './icon_mobile.svg';
 import iconBubble from './icon_bubble.svg';
 import iconAnalytics from './icon_analytics.svg';
+ 
+import Scroll, { Link, Element } from 'react-scroll';
 
 function WhatWeDo() {
     return (
@@ -23,7 +25,12 @@ function WhatWeDo() {
             <Container>
                 <Title>Services</Title>
                 <SectionContent secondary>All of our services are custom-designed. We develop compelling experiences to bring revenue and maximize lifetime customer value.</SectionContent>
-                <SectionLink to="/contact">Contact us</SectionLink>
+                <SectionLink to="contactForm"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                    >Contact us
+                </SectionLink>
             </Container>
             <Container>
                 <List>
